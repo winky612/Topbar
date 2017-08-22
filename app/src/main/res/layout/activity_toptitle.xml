@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mCustom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wk.topbar.Topbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/tb_custom"
+        mCustom:topbar_leftBackground="@android:color/holo_green_light"
+        mCustom:topbar_rightBackground="@android:color/holo_red_light"
+        mCustom:topbar_leftText="Back"
+        mCustom:topbar_leftTextColor="#FFFFFF"
+        mCustom:topbar_rightText="More"
+        mCustom:topbar_rightTextColor="#FFFFFF"
+        mCustom:topbar_title="Title"
+        mCustom:topbar_titleTextColor="#123412"
+        mCustom:topbar_titleTextSize="10sp">
+
+    </com.wk.topbar.Topbar>
+
+</RelativeLayout>

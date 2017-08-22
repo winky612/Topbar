@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Topbar">
+        <attr name="topbar_title" format="string"></attr>
+        <attr name="topbar_titleTextSize" format="dimension"></attr>
+        <attr name="topbar_titleTextColor" format="color"></attr>
+        <attr name="topbar_leftTextColor" format="color"></attr>
+        <attr name="topbar_leftBackground" format="reference|color"></attr>
+        <attr name="topbar_leftText" format="string"></attr>
+        <attr name="topbar_rightTextColor" format="color"></attr>
+        <attr name="topbar_rightBackground" format="reference|color"></attr>
+        <attr name="topbar_rightText" format="string"></attr>
+    </declare-styleable>
+
+    <attr name="position">
+        <!--枚举属性 enum-->
+        <enum name="left_top" value="0"></enum>
+        <enum name="left_bottom" value="1"></enum>
+        <enum name="right_top" value="2"></enum>
+        <enum name="right_bottom" value="3"></enum>
+    </attr>
+    <!--尺寸-->用dimension，是dp,若用px,会造成适配上的一些问题-->
+    <attr name="radius" format="dimension"></attr>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="position"></attr>
+        <attr name="radius"></attr>
+    </declare-styleable>
+
+
+</resources>
